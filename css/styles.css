@@ -589,7 +589,7 @@ footer {
   color: var(--title-text-color);
 }
 
-/* Modal */
+/* Model */
 
 .backdrop {
   position: fixed;
@@ -618,9 +618,11 @@ footer {
   left: 50%;
   min-width: 528px;
   min-height: 581px;
+
   background-color: var(--primary-bg-color);
   box-shadow: var(--card-shadow);
   border-radius: var(--border-radius);
+
   transform: translate(-50%, -50%) scale(1, 1);
   opacity: 1;
   transition: transform var(--transition-animation), opacity var(--transition-animation);
@@ -868,4 +870,8 @@ footer {
 .form_btn:hover,
 .form_btn:focus {
   background-color: var(--btn-prymary-accent-color);
+}
+
+.closed-icon {
+  transition: fill var(--transition-animation);
 }
